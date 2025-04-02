@@ -44,7 +44,7 @@ async fn main() -> Result<()> {
 ## Build and Run
 ```sh
 cargo build
-cargo test
+cargo run
 ```
 
 ## Running Tests
@@ -53,3 +53,5 @@ Run the test suite with:
 cargo test
 ```
 
+## License
+This project is licensed under the MIT License.

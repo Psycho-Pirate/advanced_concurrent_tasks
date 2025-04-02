@@ -2,7 +2,6 @@
 use advanced_concurrent_tasks::{Orchestrator, WorkerTask, Task, TaskError};
 use std::sync::Arc;
 use tokio::sync::broadcast;
-use anyhow::Result;
 
 #[tokio::test]
 async fn test_worker_task_success() {
